@@ -1,0 +1,13 @@
+# 学校事务预测工具 - 依赖列表
+# 使用方法：pip install -r requirements.txt
+
+# 数值计算库 - 用于生成随机数和数组运算
+numpy>=1.20.0
+
+# 交互式图表库 - 用于生成可视化 HTML 报告
+plotly>=5.0.0
+说明：
+
+把上面内容保存为 requirements.txt，放在项目根目录
+初学者只需一行命令安装所有依赖：pip install -r requirements.txt
+>=1.20.0 表示最低版本要求，pip 会自动安装兼容版本
